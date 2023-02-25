@@ -1,4 +1,4 @@
-name: Publish to NPM
+name: Build Binary
 
 on:
   release:
@@ -13,12 +13,11 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '16.x'
-          registry-url: 'https://registry.npmjs.org'
-          # Defaults to the user or organization that owns the workflow file
-          scope: '@octocat'
       - name: Install dependencies
         run: yarn --frozen-lockfile
-      - name: Publish to NPM
-        run: yarn publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Build
+        run: yarn build
+      - uses: AButler/upload-release-assets@v2.0
+        with:
+          files: 'dist/*'
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
