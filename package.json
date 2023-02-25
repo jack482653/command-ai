@@ -6,6 +6,7 @@
   "author": "5x <longhorn482653@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "pkg": "5.8.0",
     "prettier": "2.8.4"
   },
   "dependencies": {
@@ -14,5 +15,17 @@
   },
   "bin": {
     "openai": "./app.js"
+  },
+  "scripts": {
+    "build": "pkg app.js -c package.json --compress GZip",
+    "format": "prettier --write ."
+  },
+  "pkg": {
+    "targets": [
+      "node16-macos-x64",
+      "node16-linux-x64",
+      "node16-win-x64"
+    ],
+    "outputPath": "dist"
   }
 }
