@@ -1,4 +1,7 @@
 # command-ai
+[![Build Binary](https://github.com/jack482653/command-ai/actions/workflows/build.yml/badge.svg?event=release)](https://github.com/jack482653/command-ai/actions/workflows/build.yml)
+[![Publish to NPM](https://github.com/jack482653/command-ai/actions/workflows/publish.yml/badge.svg?event=release)](https://github.com/jack482653/command-ai/actions/workflows/publish.yml)
+[![npm version](https://badge.fury.io/js/@5x%2Fcommand-ai.svg)](https://badge.fury.io/js/@5x%2Fcommand-ai)
 
 <img width="631" alt="image" src="https://user-images.githubusercontent.com/6816342/221356981-199e620a-27c6-4503-be79-56b5f9eb4ce3.png">
 
