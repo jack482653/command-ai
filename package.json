@@ -1,6 +1,6 @@
 {
   "name": "openai-cli-chat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "app.js",
   "repository": "git@github.com:jack482653/openai-cli-chat.git",
   "author": "5x <longhorn482653@gmail.com>",
