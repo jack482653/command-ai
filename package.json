@@ -1,6 +1,6 @@
 {
   "name": "@5x/command-ai",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "AI in command line, powered by OpenAI",
   "main": "app.js",
   "repository": "git@github.com:jack482653/command-ai.git",
@@ -28,7 +28,7 @@
     "openai": "^3.1.0"
   },
   "bin": {
-    "openai": "./app.js"
+    "command-ai": "./app.js"
   },
   "scripts": {
     "build": "pkg app.js -c package.json --compress GZip",
