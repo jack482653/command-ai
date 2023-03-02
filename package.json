@@ -1,6 +1,6 @@
 {
   "name": "@5x/command-ai",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "AI in command line, powered by OpenAI",
   "main": "app.js",
   "repository": "git@github.com:jack482653/command-ai.git",
