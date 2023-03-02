@@ -24,6 +24,7 @@
     "prettier": "2.8.4"
   },
   "dependencies": {
+    "@5x/enumjs": "^1.0.6",
     "commander": "^10.0.0",
     "openai": "^3.1.0"
   },
